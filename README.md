@@ -48,9 +48,6 @@ You are only connecting 3V3, GND, SCL, SDA and INT
 ### 🎨 Reference Photo Wire Colors
 Use this guide to match the custom wiring harness layout shown in the reference image above:
 
-### 🎨 Reference Photo Wire Colors
-Use this guide to match the custom wiring harness layout shown in the reference image above:
-
 | Signal | Custom Wire Color | Pin |
 | :--- | :--- | :--- |
 | **3V3** | 🟣 Purple |  5 |
