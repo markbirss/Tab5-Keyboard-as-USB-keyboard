@@ -2,14 +2,14 @@
 
 An ultra-low latency, self-healing hardware bridge that transforms the **M5Stack Tab5 Keyboard** into a native USB Human Interface Device (HID) using an **ESP32-S3-DevKitM-1**. 
 
-<img width="3213" height="1832" alt="Project Banner" src="https://github.com/user-attachments/assets/13cd1b84-2139-4877-8e5e-62c2dc9acf33" />
+<img width="3213" height="1832" alt="Project Banner" src="https://github.com" />
 
 ### 🗺️ Hardware Reference Map
 
 | ESP32-S3 DevKit Pinout Reference | M5Stack Tab5 Mechanical Unit |
 | :---: | :---: |
-| [![ESP32-S3 DevKit Layout](https://github.com/user-attachments/assets/41c6e95d-75cd-426c-9e0f-f802caf7abae)](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitm-1/user_guide.html#hardware-reference) | [![M5Stack Tab5 Layout](https://github.com/user-attachments/assets/afd5b47d-35e6-4fc1-bbc6-6e8a60b8b79c)](https://docs.m5stack.com/en/tab5/Tab5_Keyboard) |
-| [Espressif Hardware Specs](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitm-1/user_guide.html#hardware-reference) | [M5Stack Product Documentation](https://docs.m5stack.com/en/tab5/Tab5_Keyboard) |
+| [![ESP32-S3 DevKit Layout](https://github.com)](https://espressif.com) | [![M5Stack Tab5 Layout](https://github.com)](https://m5stack.com) |
+| [Espressif Hardware Specs](https://espressif.com) | [M5Stack Product Documentation](https://m5stack.com) |
 
 ---
 
@@ -37,15 +37,26 @@ Connect the **M5Stack Tab5 Keyboard** directly to the **ESP32-S3-DevKitM-1** I2C
 | **SCL** | **GPIO 9** | Clock Line | Default core S3 I2C Clock Pin |
 | **INT** | **GPIO 10** | Interrupt Pin | Tracks hardware alerts |
 
+### 🎨 Reference Photo Wire Colors
+Use this guide to match the custom wiring harness layout shown in the reference image above:
+
+| Signal | Custom Wire Color |
+| :--- | :--- |
+| **3V3** | 🟣 Purple |
+| **GND** | ⚪🟢 White & Green |
+| **SDA** | 🟡 Yellow |
+| **SCL** | 🟠 Orange |
+| **INT** | 🔵 Blue |
+
 > ⚠️ **Signal Integrity Note:** For long wires, add two external **4.7kΩ Pull-Up Resistors** (SDA to 3V3 and SCL to 3V3) to prevent character skipping.
 
 ### 📐 2x5 Interface Pinout (P1 Connector)
 
-When bypassing the Tab5 mainboard, tap directly into the dual-row **2x5 interface connector (P1)** on the keyboard module alignment slot. Verify pin traces using the [M5Stack Tab5 Keyboard Schematic Sheet](https://docs.m5stack.com/en/tab5/Tab5_Keyboard). 
+When bypassing the Tab5 mainboard, tap directly into the dual-row **2x5 interface connector (P1)** on the keyboard module alignment slot. Verify pin traces using the [M5Stack Tab5 Keyboard Schematic Sheet](https://m5stack.com). 
 
 *Only connect the following 5 lines: 3V3, GND, SCL, SDA, and INT.*
 
-<img width="565" height="367" alt="P1 Connector Pinout" src="https://github.com/user-attachments/assets/11e6cd90-2d4c-434f-9c31-fe18a08fe2b3" />
+<img width="565" height="367" alt="P1 Connector Pinout" src="https://github.com" />
 
 ---
 
