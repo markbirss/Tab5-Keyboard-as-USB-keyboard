@@ -1,4 +1,4 @@
-# ESP32-S3 M5Stack Tab5 Keyboard HID Bridge
+# ESP32-S3 DevKitM-1 as M5Stack Tab5 Keyboard HID Bridge
 
 An ultra-low latency, self-healing hardware bridge that transforms the **M5Stack Tab5 Keyboard** into a native USB Human Interface Device (HID) using an **ESP32-S3-DevKitM-1**. 
 
